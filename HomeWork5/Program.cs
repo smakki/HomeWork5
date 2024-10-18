@@ -46,6 +46,7 @@
             var s3 = Stack.Concat(new Stack("a", "b", "c"), new Stack("1", "2", "3"), new Stack("А", "Б", "В"));
             Console.WriteLine($"size = {s3.Size}, Top = '{s3.Top}'");
             // в стеке s теперь элементы - "c", "b", "a" "3", "2", "1", "В", "Б", "А" <- верхний        }
+            
         }
     }
 }

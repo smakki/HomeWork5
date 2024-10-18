@@ -19,7 +19,7 @@
 
         public void Add(string item)
         {
-            head = new StackItem(this, item);
+            head = new StackItem(head, item);
             _size++;
         }
 

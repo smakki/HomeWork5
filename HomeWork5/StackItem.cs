@@ -2,16 +2,16 @@
 {
     public partial class Stack
     {
-        internal class StackItem
+        class StackItem
         {
-            internal Stack stack;
+            
             internal StackItem? prev;
             internal string value;
-            public StackItem(Stack stack,string value) 
+            public StackItem(StackItem? prev, string value) 
             {
-                this.stack = stack;
+                
                 this.value = value;
-                this.prev = stack.head;
+                this.prev = prev;
             }
         }
 
